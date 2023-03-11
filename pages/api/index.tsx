@@ -1,6 +1,8 @@
+/* eslint-disable react/no-unescaped-entities */
 import type { NextPage } from "next";
 import Head from "next/head";
-import styles from "../styles/Home.modules.css";
+import Header from "../../components/Header";
+import Hero from "../../components/Hero";
 
 const Home: NextPage = () => {
     return (
@@ -9,10 +11,12 @@ const Home: NextPage = () => {
                 <title>Chidike Henry's - Portfolio</title>
             </Head>
 
-            {/* Header */}
-            <header>
-            {/* Hero */}
+            <Header />
 
+            {/* Hero */}
+            <section id="hero">
+                <Hero />
+            </section>
             {/* About */}
 
             {/* Experience */}
