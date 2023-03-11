@@ -9,7 +9,19 @@ const Home: NextPage = () => {
                 <title>Chidike Henry's - Portfolio</title>
             </Head>
 
-            <h1>Lets build an Awesome Portfolio</h1>
+            {/* Header */}
+
+            {/* Hero */}
+
+            {/* About */}
+
+            {/* Experience */}
+
+            {/* Skills */}
+
+            {/* Projects */}
+            
+            {/* Contact Me */}
         </div>
     );
 };
