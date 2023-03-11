@@ -10,7 +10,7 @@ const Home: NextPage = () => {
             </Head>
 
             {/* Header */}
-
+            <header>
             {/* Hero */}
 
             {/* About */}
@@ -20,7 +20,7 @@ const Home: NextPage = () => {
             {/* Skills */}
 
             {/* Projects */}
-            
+
             {/* Contact Me */}
         </div>
     );
