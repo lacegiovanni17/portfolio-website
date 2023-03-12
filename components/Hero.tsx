@@ -26,7 +26,9 @@ export default function Hero({}: Props) {
               </h1>
               
               <div className="pt-5">
-                  
+                  <Link href="#about">
+                    <button className="heroButton">About</button>
+                </Link>
               </div>
       </div>
     </div>
