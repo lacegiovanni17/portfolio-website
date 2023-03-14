@@ -63,7 +63,7 @@ const Home = ({ pageInfo, experiences, skills, projects, socials }: Props) => {
             <motion.img
               className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
               src="https://avatars.githubusercontent.com/u/35535871?s=400&u=f37147801d9422aa533f66dcb655b62b349fcd05&v=4"
-              alt=""
+              alt="me"
             />
           </div>
         </footer>
