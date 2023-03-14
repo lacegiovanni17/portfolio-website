@@ -26,7 +26,33 @@ function ContactMe({}: Props) {
     </motion.div>
         <div className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         ContactMe
-        </div> 
+        </div>
+      
+      <div className="flex flex-col space-y-10">
+            <h4 className="text-4xl font-semibold text-center">
+            I have got just what you need.{" "}
+            <span className="decoration-[#F7AB0A]/50 underline">Lets talk.</span>
+            </h4>
+
+            <div className="space-y-10">
+            <div className="flex item-center space-x-5 justify-center">
+                <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+                <p className="text-2xl">+2348142616598</p>
+            </div>
+
+            <div className="flex item-center space-x-5 justify-center">
+                <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+                <p className="text-2xl">chidike.henry@gmail.com</p>
+            </div>
+
+            <div className="flex item-center space-x-5 justify-center">
+                <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+                <p className="text-2xl">
+                7, Asajon Way, Sangotedo, Ajah, Lagos-State.
+                </p>
+            </div>
+            </div>
+      </div>
   )
 }
 
