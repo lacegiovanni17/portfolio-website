@@ -13,6 +13,10 @@ type Inputs = {
 type Props = {};
 
 function ContactMe({}: Props) {
+  const { register, handleSubmit } = useForm<Inputs>();
+  const onSubmit: SubmitHandler<Inputs> = (formData) => {
+    window.location.href = `mailto:chidike.henry@gmail?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} (${formData.email})`;
+  };
   return (
     <motion.div
       initial={{ opacity: 0 }}

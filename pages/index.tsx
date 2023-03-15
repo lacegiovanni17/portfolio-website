@@ -62,7 +62,7 @@ const Home = ({ pageInfo, experiences, skills, projects, socials }: Props) => {
           <div className="flex items-center justify-center">
             <motion.img
               className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
-              src="https://avatars.githubusercontent.com/u/35535871?s=400&u=f37147801d9422aa533f66dcb655b62b349fcd05&v=4"
+              src="https://avatars.githubusercontent.com/u/30509335?s=400&u=b42e485929a06f8785ca2626cae69e9d5d7f5334&v=4"
               alt="me"
             />
           </div>
