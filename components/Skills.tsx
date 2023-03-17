@@ -7,7 +7,7 @@ type Props = {
   skills: SkillType[];
 };
 
-function Skills({}: Props) {
+function Skills({skills}: Props) {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -49,4 +49,4 @@ function Skills({}: Props) {
   )
 }
 
-export default Skills
+export default Skills;
